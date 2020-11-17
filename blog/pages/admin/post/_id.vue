@@ -63,8 +63,7 @@ export default {
     return {
       loading: false,
       controls: {
-        text: '',
-        password: ''
+        text: ''
       },
       rules: {
         text: [

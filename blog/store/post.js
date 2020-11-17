@@ -26,6 +26,9 @@ export const actions = {
   async remove({}, id) {
     console.log('deleted')
   },
+  async create({}, {title, text}) {
+    console.log('created')
+  },
   async update({}, {id, text}) {
     console.log('updated')
   },
